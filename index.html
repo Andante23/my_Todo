@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <h1>나의 할일 목록</h1>
+
+    <!-- TODO 입력폼 -->
+    <div>
+      <form id="todo_form">
+        <label for="제목">
+          <span>제목</span
+          ><input type="text" placeholder="제목" id="todo_title" /> </label
+        ><br />
+        <label for="내용">
+          <span>내용</span
+          ><input type="text" placeholder="내용" id="todo_text" />
+        </label>
+        <div>
+          <button type="submit">제출하기</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Todo 게시글 -->
+    <section id="todo_lists"></section>
+  </body>
+</html>
